@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>California School Performance 2018-19</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data layer of California public school locations displays the performance of schools and student groups on a set of state indicators reported in the 2019 California School Dashboard. The Dashboard is the reporting tool used in California's school accountability system and provides parents and educators with meaningful information on school and district progress so they can participate in decisions to improve student learning. California's accountability model measures the performance and progress of students using six state indicators that includes Math / English Language Arts (ELA) assessments, college/career preparedness , chronic absenteeism rates, graduation rates and suspension rates. Schools receive one of five color-coded performance levels for each indicator. From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red. Performance levels are calculated based on how current year data (Status) compares to prior year data (Change).The school districts represented in this data set are limited to those that have geographically defined service areas. Other entities defined as school districts in the California School Dashboard that are not defined geographically are excluded such as county offices of education, SBE charters and state special schools.The school enrollment and demographic information are based on the 2018-19 academic year student enrollment counts collected on Fall Census Day in 2018 (first Wednesday in October). These data elements are collected by the CDE through the California Longitudinal Achievement System (CALPADS) and can be accessed as publicly downloadable files from the Data &amp;amp; Statistics web page on the CDE website.A single school receives multiple performance colors, one for each indicator and student group.</abstract>
+            <purpose>California public school locations supplemented with student group level performance results for each of the 2019 California School Dashboard state indicators.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-124.38206</westbc>
+                <eastbc>-113.816511</eastbc>
+                <northbc>41.99543</northbc>
+                <southbc>32.453532</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>school</themekey>
+                <themekey>performance</themekey>
+                <themekey>dashboard</themekey>
+                <themekey>opendata</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <datacred>California Department of Education, U.S. Census Bureau,  National Center for Education Statistics</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>10051</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>California School Performance 2018-19</enttypl>
+                <enttypd>California public school locations supplemented with student group level performance results for each of the 2019 California School Dashboard state indicators.</enttypd>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>YearReport</attrlabl>
+                <attrdef>The year school's performance results from the California School Dashboard were reported.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FedID</attrlabl>
+                <attrdef>The 12 digit code derived from the US Department of Education's Common Core of Data (CCD) and used by federal agencies to uniquely identify all public schools nationwide.  The first 2 digits identify the state, the next 5 digits identify the school district and the final 5 digits identify the school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CDSCode</attrlabl>
+                <attrdef>The 14 digit code developed and maintained by the California Department of Education that serves to uniquely identify each school and district in the state.  The first two digits identify the county, the next five digits identify the school district and the last seven digits identify the school.  School districts will have a CDS code ending in '0000000', indicating the feature is a district and not a school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CDCode</attrlabl>
+                <attrdef>The 7 digit code developed and maintained by the California Department of Education that serves to uniquely identify each school district in the state.  The first two digits identify the county and the next five digits identify the school district.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SCode</attrlabl>
+                <attrdef>The 7 digit code developed and maintained by the California Department of Education that serves to uniquely identify each school in the state.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CountyName</attrlabl>
+                <attrdef>The name of the county associated with the public school district that operates the school.  This is usually, but not always, the same as the county where the school is physically located.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DistrictName</attrlabl>
+                <attrdef>The name of the school district that operates the school</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SchoolName</attrlabl>
+                <attrdef>The name of the school</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SchoolType</attrlabl>
+                <attrdef>A description of the school type assigned to each school that distinguishes schools based on the specific populations they serve.  The field values are generalized from the "SchoolType" field in the California Department of Education (CDE) school directory.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Status</attrlabl>
+                <attrdef>The operational status of the school that identifies whether the school is active, closed or pending.
+Active = The school is in operation and providing instructional services. 
+Closed = The school is not in operation and no longer providing instructional services. 
+Pending = The school has not opened for operation and instructional services yet, but plans to open within the next 9–12 months.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OpenDate</attrlabl>
+                <attrdef>The date the school opened.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ClosedDate</attrlabl>
+                <attrdef>The date the school closed.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SchoolLevel</attrlabl>
+                <attrdef>The level of instruction based on grades offered at the school. 
+Elementary
+Elementary-High
+Middle
+High</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GradeLow</attrlabl>
+                <attrdef>The lowest grade offered or supported by the school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GradeHigh</attrlabl>
+                <attrdef>The highest grade offered or supported by the school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Charter</attrlabl>
+                <attrdef>A flag that identifies whether a school is a charter school. 
+
+Y = The school is a charter 
+N = The school is not a charter</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CharterNum</attrlabl>
+                <attrdef>The 4 digit number assigned to a charter school.  A blank value indicates the school is not a charter school.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FundingType</attrlabl>
+                <attrdef>A description of a charter school's source of funding.
+
+Locally funded =  Charter school receives their funding through their authorizing district or county office.
+Directly funded = Charter school receives funding directly from the state.
+Blank = School is not a charter school</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>TitleIStatus</attrlabl>
+                <attrdef>A flag that identifies whether a school received Title I funding in the 2017-18 school year</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DASS</attrlabl>
+                <attrdef>A flag that identifies whether a school participates in the  Dashboard Alternative School Status (DASS) program.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AssistStatusESSA</attrlabl>
+                <attrdef>The assistance status category used to determine the eligibility of schools for support and improvement in 2018-19.
+  
+CSI Grad = High school is eligible to receive assistance in the Comprehensive Support and Improvement (CSI) category based on low graduation rate.
+CSI Low Perform = Title I-funded school is eligible to receive assistance in the CSI category based on the criteria for lowest performing school.
+ATSI = School is eligible to receive assistance in the Additional Targeted Support and Improvement (ATSI) category based  on one or more student group(s) continuing to underperform while in the Targeted Support and Improvement  (TSI) category.
+General Assistance = School is eligible to receive general assistance.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Street</attrlabl>
+                <attrdef>The physical address of the school.  This address is used as the address input field for geocoding the school record and assigning X,Y coordinates</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>City</attrlabl>
+                <attrdef>The city in which the school is physically located.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Zip</attrlabl>
+                <attrdef>The zip code in which the school is physically located.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>State</attrlabl>
+                <attrdef>The state in which the school is physically located.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CongUS</attrlabl>
+                <attrdef>The U.S. congressional district assigned to the school based on the location of the school site and the intersecting legislative district territory.  The 53 congressional districts within the State of California represent the geographically defined territories used for electing members to the  U.S. House of Representatives.  The current U.S. Congressional boundaries in California were determined by the California Citizens Redistricting Commission following the completion of the 2010 United States Census and will remain valid until 2020.</attrdef>
+                <attrdefs>California Department of Education, U.S. Census Bureau</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SenateCA</attrlabl>
+                <attrdef>The California senate district assigned to the school based on the location of the school site and the intersecting legislative district territory.  The 40 state senate districts are the geographically defined territories used for electing members to the upper chamber of the California State Legislature.  The current state senate boundaries were determined by the California Citizens Redistricting Commission following the completion of the 2010 U.S Census count and will remain valid until 2020.</attrdef>
+                <attrdefs>California Department of Education, U.S. Census Bureau</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AssemblyCA</attrlabl>
+                <attrdef>The California state assembly district assigned to the school based on the location of the school site and the intersecting legislative district territory.  The 80 California state assembly districts represent the geographically defined territories used for electing members to the lower chamber of the California State Legislature.  The current state assembly boundaries were determined by the California Citizens Redistricting Commission following the completion of the 2010 United States Census and will remain valid until 2020.</attrdef>
+                <attrdefs>California Department of Education, U.S. Census Bureau</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Locale</attrlabl>
+                <attrdef>A general geographic indicator developed by the National Center for Education Statistics (NCES) to classify the type of area where a school is located.  Locale codes are based on a twelve-category framework that includes four primary classifications (city, suburban, town, and rural) that each have three sub-types.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Latitude</attrlabl>
+                <attrdef>The angular distance (expressed in degrees) between the location of the school and the equator measured north to south.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Longitude</attrlabl>
+                <attrdef>The angular distance (expressed in degrees) between the location of the school and the prime meridian measured from west to east.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>YearData</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>enrolltotal</attrlabl>
+                <attrdef>The total number of students enrolled in the district on Fall Census Day (first Wednesday in October) of the academic year found in the "Year Reported" field.</attrdef>
+                <attrdefs>California Department of Education</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AAcount</attrlabl>
+                <attrdef>The enrollment count of African American students on Fall Census Day (first  Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AApct</attrlabl>
+                <attrdef>The enrollment rate of African American students on Fall Census Day (first  Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AIcount</attrlabl>
+                <attrdef>The enrollment count of American Indian students on Fall Census Day (first  Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AIpct</attrlabl>
+                <attrdef>The enrollment rate of American Indian students on Fall Census Day (first  Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AScount</attrlabl>
+                <attrdef>The enrollment count of Asian students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ASpct</attrlabl>
+                <attrdef>The enrollment rate of Asian students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FIcount</attrlabl>
+                <attrdef>The enrollment count of Filipino students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FIpct</attrlabl>
+                <attrdef>The enrollment rate of Filipino students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HIcount</attrlabl>
+                <attrdef>The enrollment count of Hispanic students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HIpct</attrlabl>
+                <attrdef>The enrollment rate of Hispanic students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PIcount</attrlabl>
+                <attrdef>The enrollment count of Pacific Islander students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PIpct</attrlabl>
+                <attrdef>The enrollment rate of Pacific Islander students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WHcount</attrlabl>
+                <attrdef>The enrollment count of white students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WHpct</attrlabl>
+                <attrdef>The enrollment rate of white students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MRcount</attrlabl>
+                <attrdef>The enrollment count of students reporting two or more races on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MRpct</attrlabl>
+                <attrdef>The enrollment rate of students reporting two or more races on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELcount</attrlabl>
+                <attrdef>The enrollment count of English Learner students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELpct</attrlabl>
+                <attrdef>The enrollment rate of English Learner students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOScount</attrlabl>
+                <attrdef>The enrollment count of foster students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOSpct</attrlabl>
+                <attrdef>The enrollment rate of foster students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HOMcount</attrlabl>
+                <attrdef>The enrollment count of homeless students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HOMpct</attrlabl>
+                <attrdef>The enrollment rate of homeless students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MIGcount</attrlabl>
+                <attrdef>The enrollment count of migrant students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MIGpct</attrlabl>
+                <attrdef>The enrollment rate of migrant students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SEDcount</attrlabl>
+                <attrdef>The enrollment count of socioeconomically disadvantaged students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SEDpct</attrlabl>
+                <attrdef>The enrollment rate of socioeconomically disadvantaged students on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SWDcount</attrlabl>
+                <attrdef>The enrollment count of students with disabilities on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SWDpct</attrlabl>
+                <attrdef>The enrollment rate of students with disabilities on Fall Census Day (first Wednesday in October) in the academic year found in the 'Year Data' field.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorALL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorAA</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorAI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorAS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorFI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorHI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorPI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorWH</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorMR</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorEL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorFOS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorHOM</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorSED</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ELAcolorSWD</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in English Language Arts (ELA).  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorALL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorAA</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorAI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorAS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorFI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorHI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorPI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorWH</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorMR</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorEL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorFOS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorHOM</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorSED</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MathcolorSWD</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year achievement on the Smarter Balanced Assessment in Mathematics.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorALL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorAA</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorAI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorAS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorFI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorHI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorPI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorWH</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorMR</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorEL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorFOS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorHOM</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorSED</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CCIcolorSWD</attrlabl>
+                <attrdef>One of five color-coded performance levels based on current and prior year college readiness of the graduation cohorts.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorALL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorAA</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorAI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorAS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorFI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorHI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorPI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorWH</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorMR</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorEL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorFOS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorHOM</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorSED</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>AbsentcolorSWD</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year chronic absenteeism rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorALL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorAA</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorAI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorAS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorFI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorHI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorPI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorWH</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorMR</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorEL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorFOS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorHOM</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorSED</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GradcolorSWD</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year graduation rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorALL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorAA</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorAI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorAS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorFI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorHI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorPI</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorWH</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorMR</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorEL</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorFOS</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorHOM</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorSED</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SuspcolorSWD</attrlabl>
+                <attrdef>One of five color-coded performance levels based on both current and prior year suspension rates.  From highest to lowest, the five performance levels are: Blue, Green, Yellow, Orange, and Red.</attrdef>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20200225</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
